@@ -1,8 +1,7 @@
 # ADAS Radar Controller Board with Hardware and Software Co-design
 # Project Overview 
-  This project implements a complete embedded system for an ADAS Radar Controller with Frequency Modulated Continuous Wave (FMCW) as an input signal. This project demonstartes a full-cycle engineering workflow,    
-  bridging the gap between DSP algorithms, RTL Design, Physical Design (Timing Closure) and Board Layout.
-This system generates a precise frequecy sweep (Chirp) used in automotive ADAS systems for distance and velocity measurement integrated on a Xilinx Zynq-7000 SoC.
+  This project implements a complete embedded system for an ADAS Radar Controller with Frequency Modulated Continuous Wave (FMCW) as an input signal. This project demonstartes a full-cycle engineering workflow,     bridging the gap between DSP algorithms, RTL Design, Physical Design (Timing Closure) and Board Layout. This system generates a precise frequecy sweep (Chirp) used in automotive ADAS systems for distance and
+  velocity measurement integrated on a Xilinx Zynq-7000 SoC.
 # Key Technical Achievements
   1. Register Transfer Level (RTL) Design and Digital Signal Processing (DSP):-
      Designed a custom Numerically Controlled Oscillator (NCO) core in Verilog to generate precise linear frequency chirps. Implemented a synchronous Phase Accumulator and Look-Up Table (LUT) architecture for
